@@ -1,0 +1,26 @@
+{
+  "name": "cs301-project",
+  "version": "1.0.0",
+  "description": "This is a project to come up with a project management app-Kind of ironic, I know. Team members: Nikhil Karthik, Ankur De, Anand Kumar, Anish Kumar Sinha",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angoor2002/CS301-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angoor2002/CS301-Project/issues"
+  },
+  "homepage": "https://github.com/angoor2002/CS301-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
