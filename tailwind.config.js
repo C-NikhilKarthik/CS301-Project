@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background1': "url('/src/Images/bg.jpg')",
+        'logo': "url('src/Images/discord.png')",
+      }
+    },
   },
   plugins: [],
 }
