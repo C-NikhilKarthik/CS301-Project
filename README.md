@@ -1,4 +1,4 @@
-# A Team management app with integrated chat appliaction and many more features!
+# "A social media platform that allows users to create profiles, share posts and connect with friends using MongoDB for data storage, Express.js for the back-end, React.JS for the front-end, and Node.js for server-side JavaScript execution."!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

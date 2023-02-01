@@ -3,6 +3,7 @@ import Aos from "aos";
 import ShowProfile from "../Components/ShowProfile";
 import "aos/dist/aos.css";
 import discord from "../Images/discord.png";
+import Teams from "../Components/Teams";
 
 function Home() {
   useEffect(() => {
@@ -33,9 +34,11 @@ function Home() {
         <div
           data-aos="fade-right"
           data-aos-offset="0"
+          data-aos-duration="700"
           className="relative overflow-hidden w-full border h-full grid grid-cols-[4em_1fr] rounded-lg"
         >
           <div className="backdrop-filter backdrop-blur-md bg-[#00000090] border-r-[1px]">
+
             <nav className="bg-white border-gray-200 px-2 sm:px-4  sm:hidden block backdrop-blur-md backdrop-filter py-2.5 rounded dark:bg-gray-900/20">
               <div className="container flex flex-row items-center justify-end ">
                 <div
@@ -53,6 +56,12 @@ function Home() {
                 </div>
               </div>
             </nav>
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
           </div>
           <div className="relative overflow-hidden w-full h-full">
             <div className={change(val % 2)}>
@@ -92,7 +101,7 @@ function Home() {
                   </div>
                 </nav>
               </div>
-              <div className="backdrop-filter backdrop-blur-md  bg-[#00000075]">
+              <div className="relative flex flex-col backdrop-filter backdrop-blur-md  bg-[#00000075]">
                 <nav className="bg-white border-gray-200 px-2 sm:px-4 backdrop-blur-md backdrop-filter py-2.5 rounded dark:bg-gray-900/20">
                   <div className="container flex flex-wrap items-center justify-between mx-auto">
                     <a href="/home" className="flex items-center">
@@ -113,10 +122,14 @@ function Home() {
                     </div>
                   </div>
                 </nav>
+
+                <div className="relative w-full h-full bg-[#00000035] flex flex-col">
+                  <div className="relative h-1/4 w-full bg-background2 bg-[length:100%] bg-center"></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
       <ShowProfile
         onClose={() => setShow(false)}

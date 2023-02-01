@@ -13,7 +13,7 @@ function Login() {
   };
   return (
     <div id="login" className="relative flex justify-center items-center w-full h-screen">
-      <div className=" backdrop-blur-lg border-white items-center justify-center border-[1px] flex flex-col rounded h-[25rem] bg-[#00000040] w-[20rem] p-[0.3rem] shadow-xl overflow-hidden ">
+      <div className=" backdrop-blur-lg border-white items-center justify-center border-[1px] flex flex-col rounded h-[25rem] bg-[#00000060] w-[20rem] p-[0.3rem] shadow-xl overflow-hidden ">
         <div
           id="t1"
           className="transition-[top] duration-300 absolute flex flex-col justify-start items-center w-full -top-[304px]"
