@@ -1,4 +1,4 @@
-# "A social media platform that allows users to create profiles, share posts and connect with friends using MongoDB for data storage, Express.js for the back-end, React.JS for the front-end, and Node.js for server-side JavaScript execution."!
+# A social media platform that allows users to create profiles, share posts, connect with friends and more!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -32,8 +32,8 @@ Start the server
 
 Contributions are always welcome!
 
-See `CONTRIBUTING.md` for ways to get started - [here](https://github.com/C-NikhilKarthik/CS301-Project/main/CONTRIBUTING.md)
+See `CONTRIBUTING.md` for ways to get started - [here](https://github.com/C-NikhilKarthik/CS301-Project/blob/main/CONTRIBUTING.md)
 
 ## Tech Stack
 
-**Client:** React.TailwindCSS,MongoDB
+**Client:** React.js,TailwindCSS,MongoDB,Express.js and Node.js
