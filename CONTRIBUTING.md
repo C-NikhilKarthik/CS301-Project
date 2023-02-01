@@ -1,5 +1,3 @@
-IMPORTANT - Whenever you complete any task assigned to you, make sure to fill this [google form.](https://forms.gle/2zQsMCGJBgHqoCGS7)
-
 # Contributing Guidelines
 
 ## Making a Pull Request [PR]
