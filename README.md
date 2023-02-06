@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Please note : This repository will be updated with all the cource files once the project is completed, as there can be people who might copy our code and claim it.Sorry for the Inconvenience.
 ## Appendix
 
 Project taken up by students of IIIT Dharwad to understand and implement React.js, TailwindCSS and many more techstacks.
